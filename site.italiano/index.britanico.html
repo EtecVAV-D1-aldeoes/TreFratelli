@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tre Fratelli Winery and Restaurant - Tirano, Valtellina</title>
+
+<!-- Stili minimi inline per una pagina semplice, leggibile e responsiva -->
+<style>
+  :root { --bg:#faf7f2; --ink:#332d29; --accent:#7a4f2a; --line:#e6ddd2; }
+  html, body { margin:0; padding:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:var(--ink);}
+  header { position:sticky; top:0; background:#fff; border-bottom:1px solid var(--line); z-index:10; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  nav ul { display:flex; gap:16px; list-style:none; padding:12px 0; margin:0; flex-wrap:wrap; }
+  nav a { text-decoration:none; color:var(--accent); font-weight:600; }
+  h1,h2 { line-height:1.2; }
+  section { padding: 28px 0; border-bottom:1px solid var(--line); }
+  figure { margin: 0; }
+  .hero img { width:100%; height:auto; border-radius:8px; display:block; }
+  .grid { display:grid; grid-template-columns: 1fr; gap:16px; }
+  @media (min-width: 700px) { .grid.two { grid-template-columns: 1fr 1fr; } }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:16px; }
+  .muted { color:#6b6058; }
+  footer { text-align:center; padding:24px 0; font-size:0.95rem; }
+  /* piccole ancore interne per compensare l'intestazione sticky */
+  :target::before { content:""; display:block; height:60px; margin-top:-60px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <!-- Menu con ancore interne alla stessa pagina -->
+    <nav aria-label="Navegação Principal">
+      <ul>
+        <li><a href="#History">History</a></li>
+        <li><a href="#Cellar">Cellar</a></li>
+        <li><a href="#Wines">Wines</a></li>
+        <li><a href="#Restaurant">Restaurant</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Were we are">Where we are</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <button><li><a href="TreFratelliItaliano.html">Translate for Italian <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+  <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+  <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+</svg></a></li></button>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- Sezione Eroe con immagine della proprietà -->
+  <section id="home" class="hero">
+    <!-- Foto della proprietà (Valtellina) -->
+    <figure><img alt="Wines in areas near the Alps, with Tirano in the background." src="IAimg.png">
+          <h1>Tre Fratelli Winery and Restaurant</h1>
+    <p class="muted">Four generations of family, between the dry stone walls of Valtellina and the aromas of mountain cuisine.</p>
+  </section>
+
+  <section id="History">
+    <h2>Our history</h2>
+    <!-- Testo breve in italiano sul racconto della cantina -->
+    <div class="grid two">
+      <div class="card">
+        <p>A <strong>Tre Fratelli</strong>has its roots in 1925, when Giovanni decided to cultivate <em>Chiavennasca</em> — Montanha Nebbiolo — on the terraces overlooking Tirano. Amid economic crises, wars and the resurgence of Alpine tourism, the family preserved a simple tradition: wine, hospitality, stonework and patience.</em>.</p>
+        <p>During the difficult years, the barrels were protected in a small "secret cellar" carved into the rock; in the years of recovery, the grandchildren combined their agricultural knowledge with their studies in winemaking, never abandoning the dry-stone walls that support the mountain.</p>
+<p>Today, the fourth generation continues the house with the same idea: <strong>good wine with good food</strong>, in a place that smells of wood, bread, and valley.</p>
+</div>
+<figure class="card">
+
+       <div class = img>
+        <img class="img-small-right" alt="Barris de madeira sob abóbadas de tijolos na adega" src="cantina.png" style="width: 100%; height: auto; border-radius: 8px;">
+        </div>
+      </div>
+  </section>
+
+  <section id="Cellar">
+    <h2>The Cellar</h2>
+    <p>Small, essential, carved into the rock. Controlled fermentation, ageing in oak barrels and long maturation: the mountains demand time, and we respect it.</p>
+</section>
+<section id="Wines">
+    <h2>Our Wines</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>Classic Line</h3>
+        <ul>
+          <li><strong>Valpolicella Três Irmãos 2019</strong> — Agile and convivial red (inspired edition, limited production).</li>
+            <li><strong>Três Chardonnays 2022</strong> — Fresh white flowers, apple, and mountain notes.</li>
+            <li><strong>Merlot Tre Fratelli 2020</strong> — Ripe fruit, cocoa notes, smooth tannins.</li>
+        </ul>
+        <p class="muted">*Brands of historic establishments, born as style exercises for the restaurant industry.</p>
+      </div>
+      <figure class="card">
+      <!-- Photo of the three bottles -->
+            <img class="img-small-right" alt="Three bottles aligned with Tre Fratelli labels" src="bottiglie.png" style="width: 100%; height: auto; border-radius: 8px;">
+    </div>
+   <div class="card" style="margin-top:16px;">
+      <h3>Mountain and Tradition</h3>
+      <p>Artisanal wines inspired by the character of Valtellina: local grapes, hand harvesting and slow maturation. Each vintage reflects the climate and the work carried out on the terraces.</p>
+</div>
+  </section>
+
+  <section id="Restaurant">
+  <h2>The restaurant</h2>
+  <div class="grid two">
+    <!-- COLUNA ESQUERDA: IMAGEM -->
+    <figure class="card">
+      <img alt="Front of the stone house with the Tre Fratelli sign"
+           src="facciata.png"
+           style="width: 100%; height: auto; border-radius: 8px;">
+    </figure>
+
+    <!-- COLUNA DIREITA: TEXTO -->
+    <div class="card">
+      <p>The cuisine is simple and from the valley: <strong>pizzoccheri</strong>, local cured meats and cheeses, game when in season, grandmother’s desserts.</p>
+
+      <p><em>Base menu (indicative)</em>:</p>
+      <ul>
+        <li>Dish of the day (first or second course) — € 12</li>
+        <li>Valtellina cutting board — € 10</li>
+        <li>Pizzoccheri — € 11</li>
+        <li>Rustic tart — € 5</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="Gallery">
+  <h2>Gallery</h2>
+
+  <div class="grid two">
+    <figure class="card">
+      <img alt="Vinhas e vale"
+           src="IAimg.png"
+           style="width: 100%; height: auto; border-radius: 8px;">
+    </figure>
+    <figure class="card">
+      <img alt="Barris na adega"
+           src="cantina.png"
+           style="width: 100%; height: auto; border-radius: 8px;">
+    </figure>
+
+  </div>
+</section>
+  
+  <section id="Were we are">
+    <h2>Where We Are</h2>
+    <p><strong>Address:</strong> Via S. Stefano, 55 — 28087 Tirano (SO), Italy</p>
+    <p class="muted">Just a few steps from the historic centre and the terraces. Limited parking on site.</p>
+</section>
+
+  <section id="Contact">
+    <h2>Contact</h2>
+    <!-- Simple contact section without backend -->
+    <p>Email: <a href="mailto:info@trefratelli.example">info@trefratelli.example</a> · Telephone: +39 000 000 000</p>
+    <p class="muted">Approximate opening hours: Thu–Mon 12:00–15:00 / 19:00–22:00 · Closed Tue–Wed.</p>
+</section>
+</main>
+
+<footer>
+  <!-- Simple legal note and credits -->
+  <div class="wrap">
+    <p>© 2025 Tre Fratelli Winery and Restaurant · Non-commercial demonstration site.</p>
+  </div>
+
+</footer>
+</body>
+</html>
